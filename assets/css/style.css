@@ -37,6 +37,7 @@
 .menu {
     position: fixed;
     background: var(--color-green);
+    z-index: 10;
 }
 
 .navlink {
@@ -92,4 +93,63 @@
     -webkit-background-clip: text;
     margin-top: 24px;
 }
+
 /* section-2 */
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+
+.faux {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+}
+
+.mt-24 {
+    margin-top: 180px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.postn1 {
+    right: 0%;
+    top: 5%;
+}
+
+.postn2 {
+    bottom: -35%;
+}
+
+.line1 {
+    height: 653px;
+    position: absolute;
+    border: 1px dashed black;
+    left: 38%;
+}
+
+.line2 {
+    height: 653px;
+    position: absolute;
+    border: 1px dashed black;
+    right: 38%;
+}
+
+.line3 {
+    width: 1308px;
+    position: absolute;
+    border: 1px dashed black;
+    right: 15%;
+    top: 70%;
+}
