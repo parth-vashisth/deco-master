@@ -129,27 +129,32 @@
 }
 
 .postn2 {
-    bottom: -35%;
+    bottom: -25%;
 }
 
 .line1 {
     height: 653px;
     position: absolute;
     border: 1px dashed black;
-    left: 38%;
+    left: 33%;
 }
 
 .line2 {
     height: 653px;
     position: absolute;
     border: 1px dashed black;
-    right: 38%;
+    right: 33%;
 }
 
 .line3 {
     width: 1308px;
     position: absolute;
     border: 1px dashed black;
-    right: 15%;
-    top: 70%;
+    right: 0%;
+    top: 65%;
+}
+
+/* section-3 */
+.pt-200 {
+    padding-top: 200px;
 }
