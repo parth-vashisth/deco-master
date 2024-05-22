@@ -3,7 +3,7 @@ $(document).ready(function () {
         dots: false,
         infinite: true,
         speed: 300,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 4,
         slidesToScroll: 2,
         arrows: false,
@@ -35,7 +35,7 @@ $(document).ready(function () {
         dots: false,
         rtl: true,
         speed: 300,
-        autoplay: false,
+        autoplay: true,
         responsive: [
             {
                 breakpoint: 992,
