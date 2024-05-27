@@ -259,11 +259,13 @@
     text-align: left;
     color: var(--color-black);
 }
-.place{
+
+.place {
     top: 0%;
     left: 0%;
 }
-.place2{
+
+.place2 {
     bottom: 0%;
     right: 0%;
 }
