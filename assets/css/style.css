@@ -269,3 +269,84 @@
     bottom: 0%;
     right: 0%;
 }
+
+/* section-5 */
+.text-line {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: var(--color-black);
+    max-width: 270px;
+}
+
+.holder {
+    top: 120%;
+    left: 2%;
+    z-index: 1;
+}
+
+.holder2 {
+    top: 337%;
+    left: 18%;
+    z-index: 1;
+}
+
+.holder3 {
+    top: 120%;
+    left: 32%;
+    z-index: 1;
+}
+
+.holder4 {
+    top: 337%;
+    left: 48%;
+    z-index: 1;
+}
+
+.holder5 {
+    top: 120%;
+    right: 27%;
+    z-index: 1;
+}
+
+.holder6 {
+    right: 10%;
+    top: 337%;
+    z-index: 1;
+}
+.holder7{
+    right: 0%;
+    top: 120%;
+}
+
+.stroke1 {
+    top: 220%;
+    left: 6%;
+}
+
+.stroke2 {
+    left: 22%;
+    top: 210%;
+}
+
+.stroke3 {
+    top: 220%;
+    left: 37%;
+}
+
+.stroke4 {
+    top: 210%;
+    right: 28%;
+}
+
+.stroke5 {
+    top: 210%;
+    right: 13%;
+}
+
+.stroke6 {
+    right: 1%;
+    top: 205%;
+}
