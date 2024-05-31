@@ -95,6 +95,36 @@
     margin-top: 24px;
 }
 
+.gap25 {
+    gap: 25%;
+}
+
+.mainmenu {
+    width: 100%;
+}
+
+.mainmenu li {
+    position: relative;
+}
+
+.mainmenu li:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 5%;
+}
+
+.mainmenu li:hover::after {
+    width: 100%;
+    height: 3px;
+    background: var(--color-gradient-2);
+}
+
+
+
 /*            -- --   section-2   -- --             */
 .heading {
     font-family: "Poppins", sans-serif;
