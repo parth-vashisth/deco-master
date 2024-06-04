@@ -96,76 +96,6 @@
 }
 
 
-#nav-toggle span,
-#nav-toggle span:before,
-#nav-toggle span:after {
-    cursor: pointer;
-    height: 5px;
-    width: 35px;
-    background: #000;
-    display: block;
-    content: '';
-    position: absolute;
-}
-
-#nav-toggle span:before {
-    top: -10px;
-}
-
-#nav-toggle span:after {
-    bottom: -10px;
-}
-
-#nav-toggle span,
-#nav-toggle span:after,
-#nav-toggle span:before {
-    transition: all 300ms ease-in-out;
-}
-
-#nav-toggle.active span {
-    background-color: transparent;
-}
-
-#nav-toggle.active span:before,
-#nav-toggle.active span:after {
-    top: 0;
-}
-
-#nav-toggle.active span:before {
-    transform: rotate(45deg);
-}
-
-#nav-toggle.active span:after {
-    transform: rotate(-45deg);
-}
-
-.gap25 {
-    gap: 25%;
-}
-
-.mainmenu {
-    width: 100%;
-}
-
-.mainmenu li {
-    position: relative;
-}
-
-.mainmenu li:after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 1px;
-    display: block;
-    transition: all 0.3s ease;
-    bottom: 5%;
-}
-
-.mainmenu li:hover::after {
-    width: 100%;
-    height: 3px;
-    background: var(--color-gradient-2);
-}
 
 
 
@@ -357,73 +287,74 @@
 }
 
 .holder {
-    top: 120%;
-    left: 2%;
+    top: 90%;
+    left: -12%;
     z-index: 1;
 }
 
+
 .holder2 {
-    top: 337%;
-    left: 18%;
+    top: 400%;
+    left: 4%;
     z-index: 1;
 }
 
 .holder3 {
-    top: 120%;
-    left: 32%;
+    top: 90%;
+    left: 24%;
     z-index: 1;
 }
 
 .holder4 {
-    top: 337%;
-    left: 48%;
+    top: 400%;
+    right: 35%;
     z-index: 1;
 }
 
 .holder5 {
-    top: 120%;
-    right: 27%;
+    top: 90%;
+    right: 20%;
     z-index: 1;
 }
 
 .holder6 {
-    right: 10%;
-    top: 337%;
+    top: 400%;
+    right: 0%;
     z-index: 1;
 }
 
 .holder7 {
-    right: 0%;
-    top: 120%;
+    top: 90%;
+    right: -20%;
 }
 
 .stroke1 {
-    top: 220%;
-    left: 6%;
+    top: 233%;
+    left: -10%
 }
 
 .stroke2 {
-    left: 22%;
+    left: 10%;
     top: 210%;
 }
 
 .stroke3 {
-    top: 220%;
-    left: 37%;
+    top: 230%;
+    left: 28%;
 }
 
 .stroke4 {
     top: 210%;
-    right: 28%;
+    right: 25%;
 }
 
 .stroke5 {
-    top: 210%;
-    right: 13%;
+    top: 230%;
+    right: 2%;
 }
 
 .stroke6 {
-    right: 1%;
+    right: -15%;
     top: 205%;
 }
 
@@ -816,4 +747,33 @@
     text-align: center;
     color: var(--color-white);
     margin-top: 26px;
+}
+
+/*            -- --   responsive   -- --             */
+
+@media (max-width: 767px) {
+    .lg-view {
+        position: fixed;
+        width: 100%;
+        height: 200vh;
+        top: 0;
+        left: -150%;
+        background-color: var(--color-green);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+        transition: 0.5s;
+        gap: 20px;
+    }
+
+    .nav-icon {
+        z-index: 4;
+    }
+
+    .show {
+        left: 0%;
+    }
+
 }

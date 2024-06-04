@@ -1,3 +1,8 @@
+let navicon = document.querySelector(".nav-icon");
+let lgview = document.querySelector(".lg-view");
+navicon.addEventListener("click", () => {
+    lgview.classList.toggle("show");
+});
 $(document).ready(function () {
     $(".parentslider").slick({
         dots: false,
@@ -22,7 +27,7 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    dots: true
+                    dots: false
                 }
             }
         ]
@@ -51,13 +56,9 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    dots: true
+                    dots:false
                 }
             }
         ]
     });
 });
-document.querySelector("#nav-toggle")
-    .addEventListener("click", function () {
-        this.classList.toggle("active");
-    });
