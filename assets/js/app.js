@@ -14,7 +14,7 @@ $(document).ready(function () {
         arrows: false,
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -24,6 +24,15 @@ $(document).ready(function () {
             },
             {
                 breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+
+            },
+            {
+                breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -43,7 +52,7 @@ $(document).ready(function () {
         autoplay: true,
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -54,9 +63,17 @@ $(document).ready(function () {
             {
                 breakpoint: 768,
                 settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    dots:false
+                    dots: false
                 }
             }
         ]
